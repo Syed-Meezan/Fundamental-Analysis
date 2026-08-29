@@ -177,3 +177,6 @@ go run .
 |---|---|---|
 | `GET /api/search` | `q` (company name, min 2 chars) | `[]model.SearchResult` |
 | `GET /api/analyze` | `name` (company name) | `model.CompanyData` (statements + computed analysis) |
+
+## Author-Syed Meezan Husain 
+

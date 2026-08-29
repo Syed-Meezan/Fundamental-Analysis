@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fundamental Analysis — Indian Stocks</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>Fundamental Analysis</h1>
+    <p class="subtitle">Financial statements &amp; growth trends for Indian listed companies, sourced from Screener.in</p>
+
+    <div class="search-wrap">
+      <input id="search-input" type="text" autocomplete="off" placeholder="Type a company name, e.g. TCS, Infosys, HDFC Bank..." />
+      <ul id="suggestions" class="suggestions hidden"></ul>
+    </div>
+  </header>
+
+  <main id="app">
+    <div id="status" class="status hidden"></div>
+    <div id="result" class="result hidden"></div>
+  </main>
+
+  <template id="tpl-table-section">
+    <section class="card">
+      <h2 class="table-title"></h2>
+      <div class="table-scroll">
+        <table class="data-table"></table>
+      </div>
+    </section>
+  </template>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
